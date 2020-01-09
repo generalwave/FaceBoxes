@@ -7,5 +7,4 @@
 
 官方：多尺度情况下96%，单尺度(放大三倍)95.4%
 
-预训练模型：对原图片进行1024padding，单尺度95.9%
-
+[预训练模型](https://pan.baidu.com/s/1uiLa-jKV0iVnWLKJtcVjTw)：对原图片进行1024padding，单尺度95.9%
