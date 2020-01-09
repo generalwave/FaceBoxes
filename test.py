@@ -43,7 +43,7 @@ def nms(dets, thresh, mode="Union"):
 
 
 def get_model():
-    pretrain_model = "/Users/yangjiang/temp/gpu1/FaceBoxes_epoch_299_v2.pth"
+    pretrain_model = "/Users/yangjiang/temp/gpu1/FaceBoxes.pth"
     num_classes = CONFIG["num_classes"]
     params = torch.load(pretrain_model, map_location="cpu")
     model = FaceBoxes(num_classes, "test")
